@@ -31,7 +31,7 @@ app.use((error, req, res, next) => {
   res.status(status).json({ message: message });
 });
 
-mongoose
+mongoose 
   .connect(
     'mongodb+srv://maximilian:9u4biljMQc4jjqbe@cluster0-ntrwp.mongodb.net/messages?retryWrites=true'
   )
